@@ -8,6 +8,8 @@ public class Main {
         System.out.println("=============Xos Gelmisiniz=============");
         int userEnterValue = sc.nextInt();
         int luckyNumber = (int) (Math.random()*99+1);
+        String s;
+
 
 
         boolean UserEnterKey = userEnterValue >= 10 && userEnterValue < 100;
@@ -29,6 +31,7 @@ public class Main {
                 System.out.println("Uduslu eded: " + luckyNumber + " Daxil edilen eded: " + userEnterValue + " Teesufler olsun ki siz texmin ede bilmediniz");
                 break;
             }
+
         }
     }
 
