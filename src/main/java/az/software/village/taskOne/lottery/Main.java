@@ -1,7 +1,7 @@
 package az.software.village.taskOne.lottery;
 
 import java.util.Scanner;
-
+// Task About Lottery
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

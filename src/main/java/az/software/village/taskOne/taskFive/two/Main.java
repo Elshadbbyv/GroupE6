@@ -5,22 +5,14 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
-        System.out.print("Baslangic deyer: ");
+        System.out.print("1 deyer: ");
         int a = sc.nextInt();
-        System.out.print("Son deyer: ");
+        System.out.print("2 deyer: ");
         int b = sc.nextInt();
-        System.out.print("Random sayi: ");
-        int c = sc.nextInt();
-        int max = 0;
-        for (int i = 0; i < c; i++) {
-            int random = (int) (Math.random()*((b-a)-1-a));
-
-            if (max>random){
-                System.out.println(max);
-            }
-            max=random;
-
-
-        }
+        int first = (int) (Math.random()*((b-a)-1-a));
+        int second = (int) (Math.random()*((b-a)-1-a));
+        int max = Math.max(first,second);
+        int min = Math.min(first,second);
+        System.out.println(a +" ve " + b + " araligindaki deyerlerin maximum "+ max+" minimum "+ min);
     }
 }

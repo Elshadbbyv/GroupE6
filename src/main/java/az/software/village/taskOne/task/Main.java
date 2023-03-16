@@ -1,7 +1,7 @@
 package az.software.village.taskOne.task;
 
 import java.util.Scanner;
-
+// Using Ternary operator find max and min
 public class Main {
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);

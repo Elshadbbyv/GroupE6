@@ -1,4 +1,4 @@
-package az.software.village.taskOne.taskFour;
+package az.software.village.taskOne.taskFour.one;
 
 import java.util.Scanner;
 
